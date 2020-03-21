@@ -1,0 +1,327 @@
+/* hoja de stilos principal */
+
+/* reset */
+
+html, body {
+	font-family: Geneva, ‘Lucida Sans’, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, sans-serif;
+	margin: 0;
+	padding:  0;
+	font-size: 1em;
+	font-family: 'Patua One', cursive;
+	line-height: 1.5em;
+	font-weight: 100;
+}
+
+.container {
+	max-width: 1366px;
+	margin: auto;
+}
+
+header {
+	background-color: #EEDBDB;
+	padding:  1% 5%;
+	text-align: center;
+}
+
+header nav {
+	padding: 2% 0 1% 0;
+}
+
+header h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 2.8rem;
+	margin: 0;
+	padding: 1% 0 0 0;
+	color: #ff6763;
+}
+
+header h4 {
+	margin: 0;
+	padding:  0;
+}
+
+header ul {
+	list-style-type:  none;
+	padding:  0;
+	margin: 0;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 0 5% 0 0;
+}
+
+header ul li a {
+	text-decoration: none;
+	font-family: 'Patua One', cursive;
+	text-transform: uppercase;
+	color: black;
+
+}
+
+header ul li a i {
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+header ul li a:hover {
+	color: #ff6763;
+}
+
+.main {
+	width: 90%;
+	margin: auto;
+	padding: 2% 0 2% 0;
+}
+
+.main h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #ff6763;
+}
+
+.big-header {
+	font-size: 2em;
+	font-weight: 100!important;
+}
+.f-w-100 {
+	font-weight: 100!important;
+}
+
+.main-feat {
+	display: inline-block;
+	width: 22.5%;
+	padding: 0 2% 0 0;
+	vertical-align: text-top;
+}
+
+.main-feat h3 {
+	text-align: center;
+}
+
+.main-feat img {
+	width: 98%;
+	padding: 0 1%;
+}
+
+.main article p a {
+	text-decoration: none;
+	color: #ff6763;
+	display: block;
+	padding: 5% 0;
+}
+
+.featured {
+	background-color: #ffd8d7;
+	padding:  2% 0;
+}
+
+.feat-feat {
+	width: 90%;
+	margin: auto;
+}
+
+.feat-feat P {
+	padding: 1% 0;
+}
+
+#donantes, #receptores {
+    background-color: #ff6763;
+    padding: 0 0;
+}
+
+.give-it, .take-it {
+	width: 100%;
+	margin: auto 0;
+	color: black;
+	min-height: 40%;
+  box-sizing: border-box;
+}
+
+.give-text, .take-text {
+	width: 40%;
+	height: 20%;
+	display: inline-block;
+	vertical-align: text-top;
+	margin-left: 5%;
+}
+
+.give-img {
+	width: 50%;
+	height: 20%;
+	display: inline-block;
+	vertical-align: text-top;
+	padding-left: 4.7%;
+}
+
+.take-img {
+	width: 50%;
+	height: 20%;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.img-cont1 {
+	width: 100%;
+	height: 398px;
+	background-image: url("../img/part-logo/restaurant_owner.jpg");
+	background-size: cover;
+}
+
+.img-cont2 {
+	width: 100%;
+	height: 398px;
+	background-image: url("../img/part-logo/tupper.jpg");
+	background-size: cover;
+}
+
+.give-type ul, .take-type ul {
+	list-style-type: none;
+	margin:  0;
+	padding: 0;
+	width: 90%;
+}
+
+.give-type ul li, .take-type ul li  {
+	display: inline-block;
+	margin-right: 2%;
+	padding:  1% 2%;
+	background-color: white;
+	border-radius: 2px;
+	margin: 1% 1% 2% 1%;
+}
+
+
+.give-type ul li:hover, .take-type ul li:hover {
+	box-shadow: 0px 0px 3px white;
+	color: #843b62;
+}
+
+.give-type ul li a, .take-type ul li a  {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+footer {
+	margin: 0;
+	padding: 0;
+}
+
+.colaboran {
+	width: 90%;
+	margin: auto;
+}
+
+footer .colaboran ul{
+	list-style-type: none;
+	margin: 0;
+	padding:  0;
+}
+footer .colaboran ul li {
+	display: inline-block;
+}
+footer .colaboran ul li a {
+	text-decoration: none;
+	color: white;
+}
+.coloured {
+	color: #ff6763;	
+}
+
+
+/* TYPEWRITER EFFECT */
+
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .5em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .018em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect 
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+*/
+
+.oculta {
+	background-color: white;
+	display: none;
+	visibility: hidden;
+}
+
+
+.visible {
+	background-color: white;
+	visibility: visible;
+}
+
+
+
+.vert-list ul {
+	list-style-type: none;
+	margin:  0;
+	padding: 0;
+	width: 90%;
+}
+
+
+
+
+
+.vert-list-li {
+	display: block!important;
+	margin: 5% 2%;
+	padding:  1% 2% 5% 2%;
+	background-color: white;
+	border-radius: 2px;
+	margin:  0 -2%;
+}
+
+/* area personal */
+
+.personal {
+	background-color: #ff6763;	
+}
+
+.container_person {
+	background-color: #ff6763;
+	padding:  3% 0;
+}
+
+.main_personal {
+	font-family: 'Patua One', cursive;
+	font-size: 1.7em;
+	width: 20%;
+	margin: 0 auto;
+}
+
+
+.main_personal input {
+	width: 100%;
+	font-size: .8em;
+	padding: 1% 0 1% 3%;
+	margin: 0 0 5% 0;
+	font-family: 'Patua One', cursive;
+}
+
+
+.main_personal input[type="submit"] {
+	text-align: center;
+    width: 104%;
+    margin: 3% 0;
+}

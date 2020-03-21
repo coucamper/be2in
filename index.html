@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ejercicio Jquery</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+
+			<h1>- BE2IN -</h1>
+			<nav>
+				<ul>
+					<li><a href="">Sobre BE2IN</a></li>
+					<li><a href="">Sostenibilidad</a></li>
+					<li><a href="">Donantes</a></li>
+					<li><a href="">Receptores</a></li>
+					<li><a href="">Comercios</a></li>
+					<li><a href="">Ayuda</a></li>
+					<li><a href=""><i class="material-icons">account_circle</i>Area personal</a></li>
+				</ul>
+			</nav>
+		</header>
+	<div class="container">
+		<section class="main">
+			<article>
+			<h2 class="big-header">BE2IN: La red solidaria P2P en comunidades locales</h2>
+				<section>
+				<article class="main-feat">
+					<h3>Desperdicio de alimentos</h3>
+					<img src="img/food-waste.jpg" alt="imagen 1">
+					<p>Se estima que un tercio de todos los alimentos producidos a nivel mundial se pierden o se desperdician. En un mundo en el que casi mil millones de personas pasan hambre, esto es inaceptable.<a href="#"> > Leer más...</a></p>
+				</article>
+				<article class="main-feat">
+					<h3>Reducción de residuos</h3>
+					<img src="img/home-goods.jpg" alt="imagen 2">
+					<p>En Suecia, las estadísticas dicen que el 99% de los residuos domésticos se reciclan, lo que denota una gran cultura del respeto al medio ambiente, digno de ocupar un hueco en nuestros hogares y bolsillos.<a href="#"> > Leer más...</a></p>
+				</article>
+				<article class="main-feat col-3">
+					<h3>Bien común</h3>
+					<img src="img/common.jpg" alt="imagen 3">
+					<p>El bien común es un concepto que en general puede ser entendido como aquello de lo que se benefician todos los ciudadanos así como los sistemas sociales de los cuales todos dependemos.<a href="#"> > Leer más...</a></p>
+				</article>
+				<article class="main-feat col-xl-4">
+					<h3>Acción comunitaria</h3>
+					<img src="img/local.jpg" alt="imagen 4">
+					<p>La acción comunitaria promueve la puesta en evidencia de vínculos entre los individuos y de la posibilidad de aplicar conjuntamente los valores, para alcanzar resultados de mutuo interés.<a href="#"> > Leer más...</a></p>
+				</article>
+			</article>
+			</section>
+		</section>
+		<section class="featured">
+			<article class="feat-feat">
+				<h2>EL MANIFESTO BE2IN: Solidaridad entre iguales, <u><span class="coloured">sin intermediarios</span>.</u></h2>
+				<p>En <span class="coloured">BE2IN</span> creemos que hay otra forma de colaborar y mantener una actitud solidaria sin necesidad de gestión por parte de intermediarios u ONG's.</p> 
+				<p>Creemos que la tecnología debe servir para unir a las personas y para crear comunidades basadas en el bien común, por eso nuestra filosofía se basa en el intercambio entre iguales. <span class="coloured">BE2IN</span> es una comunidad formada por donantes, receptores y viceversa que trata de que los alimentos o bienes que alguien ya no necesita puedas ser aprovechados por personas que sí los necesitan, especialmente aquellas personas con escasos recursos económicos.</p>
+				<p>En <span class="coloured">BE2IN</span> está prohibido comercializar con los alimentos, bienes o servicios que ofrecen los donantes, solo se aceptan intercambios realizados de manera altruista. El trueque es la única actividad permitida dentro de la plataforma, entendiendola como un intercambio entre iguales que persigue el bien común, su significado va más allá de lo material al tener también implicaciones sociales y culturales de enorme relevancia.</p>
+				<p>En <span class="coloured">BE2IN</span> creemos en el poder de las comunidades locales por eso tratamos de conectar a ciudadanos de áreas próximas, a los que denominamos "vecinos", estos forman un grupo heterogéneo que engloba a particulares y propietarios de comercios que desean que sus excedentes puedan ser rescatados para su reutilización.</p>
+				<p>Una de las cosas más valoradas por los usuarios de <span class="coloured">BE2IN</span> es tener la oportunidad de interactuar con "vecinos" de todos los ambitos de la vida creando un ecosistema solidario enfocado a mejorar la calidad de vida de su comunidad local.</p>
+			</article>			
+		</section>
+		<section id="donantes">
+			<article class="give-it">
+				<section class="give-text">
+				<h2 class="big-header">¿Quieres donar lo que no necesitas?...</h2>
+				<p>Ya seas un particular, un comercio, un restaurante, un hotel o una empresa de catering, está en tu mano ayudar a las personas con menos recursos. El proceso es sencillo, utiliza el formulario de subida para añadir una foto, una descripción y el estado de lo que quieres donar, e indica la hora y lugar de entrega. Las personas interesadas te enviarán un aviso instantaneo para conectar contigo, despues puedes darles indicaciones más detalladas si lo deseas.</p>
+				<article class="give-type">
+				<h2 class="f-w-100">¿Que quieres donar?</h2>
+				<p>Indicanos lo que es</p>
+					<ul>
+						<li id="comida">Comida</li>
+						<li id="enseres">Enseres</li>
+					</ul>
+
+
+				<section id="ocultaComida" class="ocultaComida">
+					<h3>Tipo de alimento</h3>
+					<ul class="vert-list">
+						<li class="vert-list-li">+ Perecederos - Alimentos frescos sin cocinar.</li>
+						<li class="vert-list-li">+ No perecederos - Enlatados, curados, embutidos ahumados.</li>
+						<li class="vert-list-li">+ Horneados - Masas y panes, empanadas, pasteles y frescos horneados.</li>
+						<li class="vert-list-li">+ Secos - Legumbres, arroz, pastas y cereales.</li>
+						<li class="vert-list-li">+ Otros.</li>
+					</ul>
+				</section>
+
+				<section id="ocultaEnseres" class="ocultaEnseres">
+					<h3>Tipo de artículo</h3>
+					<ul class="vert-list">
+						<li class="vert-list-li">+ Muebles y electrodomésticos.</li>
+						<li class="vert-list-li">+ Ropa y textiles del hogar.</li>
+						<li class="vert-list-li">+ Libros y revistas.</li>
+						<li class="vert-list-li">+ Juguetes.</li>
+						<li class="vert-list-li">+ Otros.</li>
+					</ul>
+				</section>
+
+				
+
+
+				</article>
+				</section>
+				<section class="give-img">
+					<div class="img-cont1"></div>
+				</section>
+			</article>
+		</section> <!-- END donantes -->
+
+
+
+
+
+
+
+
+<section id="receptores"> <!-- START receptores -->
+			<article class="take-it">
+				<section class="take-img">
+					<div class="img-cont2"></div>
+				</section>
+				<section class="take-text">
+				<h2 class="big-header">Normas para la recogida:</h2>
+				<p>Busca en el tablón aquellas recogidas disponibles, los vecinos suelen publicar sus excedentes por la mañana, chequea la plataforma en ese periodo.</p>
+				<p>Lleva tus propios recipientes para recoger los alimentos u otros medios para cosas más voluminosas</p>
+				<p>Pregunta por info de alérgenos, estado de conservación, y datos de entrega a tu vecino y concertad la recogida.</p>
+				<p>Confirma tu solicitud y sigue el itinerario de recogida</p>
+				<article class="take-type">
+					<ul>
+						<li><a href="">Ir al tablón de recogidas disponibles</a></li>
+						<li><a href="">Ver acuerdo legal</a></li>
+					</ul>
+				</article>
+				</section>
+			</article>
+			
+		</section> <!-- END receptores -->
+
+
+
+		<section>
+			
+		</section>
+
+
+
+
+
+	</div>
+
+
+	<footer>
+		<section class="colaboran">
+			<h3>Empresas colaboradoras:</h3>
+			<ul>
+				<li><a href=""><img src="img/part-logo/carrefour.png" alt=""></a></li>
+				<li><a href=""><img src="img/part-logo/alcampo.png" alt=""></a></li>
+				<li><a href=""><img src="img/part-logo/alimerka.png" alt=""></a></li>
+				<li><a href=""><img src="img/part-logo/ikea.png" alt=""></a></li>
+			</ul>
+		</section>
+		
+	</footer>
+
+<script src="js/toggle_menu.js"></script>
+
+
+</body>
+</html>
+
